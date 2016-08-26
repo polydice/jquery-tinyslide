@@ -1,0 +1,19 @@
+{
+  "name": "jquery-tinyslider",
+  "version": "1.0.0",
+  "description": "slider as a jquery extension",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/polydice/tinyslider"
+  },
+  "keywords": [
+    "slider",
+    "jquery"
+  ],
+  "author": "ichi",
+  "license": "MIT"
+}
