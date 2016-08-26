@@ -1,7 +1,7 @@
 {
-  "name": "jquery-tinyslider",
+  "name": "jquery-tinyslide",
   "version": "1.0.0",
-  "description": "slider as a jquery extension",
+  "description": "A tiny slider depend jquery",
   "main": "index.js",
   "scripts": {
     "test": "test"
