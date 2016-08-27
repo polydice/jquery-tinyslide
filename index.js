@@ -1,3 +1,5 @@
+'use strict';
+
 class TinySlide {
   constructor(elm, options) {
     const opts = $.extend({}, TinySlide.defaults, options);

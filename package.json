@@ -4,7 +4,7 @@
   "description": "A tiny slider depend jquery",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "jasmine spec/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
     "jquery"
   ],
   "author": "ichi",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine": "^2.4.1",
+    "jquery": "^3.1.0"
+  }
 }
