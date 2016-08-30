@@ -1,14 +1,14 @@
 {
   "name": "jquery-tinyslide",
   "version": "1.0.0",
-  "description": "A tiny slider depend jquery",
+  "description": "A tiny slider based on jQuery",
   "main": "index.js",
   "scripts": {
     "test": "jasmine spec/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "github.com/polydice/tinyslider"
+    "url": "github.com/polydice/tinyslide"
   },
   "keywords": [
     "slider",
