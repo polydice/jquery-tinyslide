@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>jquery-tinyslide</title>
+  <link rel="stylesheet" type="text/css" href="./stylesheets/index.css">
+</head>
+<body>
+  <h2>jquery-tinyslide sample</h2>
+  <hr/>
+  <div class="container">
+    <ul class="slide">
+      <li class="current"><img src="./images/1.jpg" /></li>
+      <li><img src="./images/2.jpg" /></li>
+      <li><img src="./images/3.jpg" /></li>
+    </ul>
+    <ul class="slide-controller">
+      <li class="current">1</li>
+      <li>2</li>
+      <li>3</li>
+    </ul>
+  </div>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <script src="./bower_components/jquery-tinyslide/index.js"></script>
+  <script>
+    // Register it with jquery
+    $.fn.extend({
+      tinySlide(options) {
+        Array.prototype.forEach.call(this, (elm) => {
+          const tinySlideIns = new TinySlide(elm, options);
+          $(elm).data('tinySlide', tinySlideIns);
+        });
+      },
+    });
+
+    // Define callbacks
+    function onPause(pos) {
+      console.log('Pause');
+      console.log('Now idx is ' + pos);
+    }
+
+    function onRestart(pos) {
+      console.log('Restart');
+      console.log('Now idx is ' + pos);
+    }
+
+    function onRotate(pos) {
+      console.log('Rotate');
+      console.log('Now idx is ' + pos);
+    }
+
+    // Initialize slide
+    $('.slide, .slide-controller').tinySlide({
+      title: 'li',
+      interval: 4000,
+      startIdx: 0,
+      $pause: $('.slide-controller').find('li'),
+      onPause(pos) {
+        return onPause(pos);
+      },
+
+      onRestart(pos) {
+        return onRestart(pos);
+      },
+
+      onRotate(pos) {
+        return onRotate(pos);
+      },
+    });
+  </script>
+</body>
+</html>

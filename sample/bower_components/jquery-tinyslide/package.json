@@ -1,0 +1,23 @@
+{
+  "name": "jquery-tinyslide",
+  "version": "1.0.0",
+  "description": "A tiny slider depend jquery",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine spec/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/polydice/tinyslider"
+  },
+  "keywords": [
+    "slider",
+    "jquery"
+  ],
+  "author": "ichi",
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine": "^2.4.1",
+    "jquery": "^3.1.0"
+  }
+}
