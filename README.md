@@ -1,5 +1,7 @@
 ## jqeury-tinyslide
 
+[![npm version](https://badge.fury.io/js/jquery-tinyslide.svg)](https://badge.fury.io/js/jquery-tinyslide)
+
 Transfer multiple elements into slide in one magic. 
 
 ### Install
