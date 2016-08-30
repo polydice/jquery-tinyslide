@@ -1,6 +1,6 @@
 {
   "name": "jquery-tinyslide",
-  "description": "slider as a jquery extension",
+  "description": "slider as a jQuery extension",
   "main": "index.js",
   "authors": [
     "ichi"
@@ -10,7 +10,7 @@
     "slider",
     "jquery"
   ],
-  "homepage": "https://github.com/polydice/jquery-tinyslider",
+  "homepage": "https://github.com/polydice/jquery-tinyslide",
   "ignore": [
     "**/.*",
     "node_modules",
