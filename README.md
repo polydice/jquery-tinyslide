@@ -105,7 +105,7 @@ It will be triggered when slide finish one rotate.
 
 ### Demo
 
-TO BE DONE
+Check our [sample](https://github.com/polydice/jquery-tinyslide/tree/master/sample).
 
 ### Contribute
 
