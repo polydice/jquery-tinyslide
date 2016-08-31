@@ -1,10 +1,10 @@
-## jqeury-tinyslide
+## jquery-tinyslide
 
 [![npm version](https://badge.fury.io/js/jquery-tinyslide.svg)](https://badge.fury.io/js/jquery-tinyslide)
 
 Transfer multiple elements into slide in one magic. 
 
-### Install
+### Installj
 
 ```
 npm install --save jquery-tinyslide
@@ -18,7 +18,7 @@ bower install --save jquery-tinyslide
 
 ### Dependency
 
-Since this package acts as a jquery extension, it depends on jquery. Be sure that you have jquery installed properly before requiring it.
+Since this package acts as a jQuery extension, it depends on jQuery. Be sure that you have jQuery installed properly before requiring it.
 
 ### Usage
 
@@ -30,7 +30,7 @@ const TinySlide = require('jquery-tinyslide');
 
 otherwise you can acquire `TinySlide` globally if you install it with bower.
 
-And than you could register it with jquery.
+And than you could register it with jQuery.
 
 ```js
 $.fn.extend({
@@ -43,7 +43,7 @@ $.fn.extend({
 });
 ```
 
-`tinyslide` now should work as expected as a jquery extension!
+`tinyslide` now should work as expected as a jQuery extension!
 
 Now we can register DOM element which we would like it be a slide.
 
@@ -113,6 +113,6 @@ PR, issue and advice are always welcome.
 
 ### Lisence
 
-Check lisence [here](https://github.com/polydice/jquery-tinyslider/blob/master/LICENSE).
+Check lisence [here](https://github.com/polydice/jquery-tinyslide/blob/master/LICENSE).
 
 
