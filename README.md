@@ -24,7 +24,7 @@ Since this package acts as a jquery extension, it depends on jquery. Be sure tha
 
 if you install it with npm, you can just: 
 
-```
+```js
 const TinySlide = require('jquery-tinyslide');
 ```
 
@@ -32,7 +32,7 @@ otherwise you can acquire `TinySlide` globally if you install it with bower.
 
 And than you could register it with jquery.
 
-```
+```js
 $.fn.extend({
   tinySlide(options) {
     Array.prototype.forEach.call(this, (elm) => {
@@ -47,7 +47,7 @@ $.fn.extend({
 
 Now we can register DOM element which we would like it be a slide.
 
-```
+```js
 $(MYSLIDE).tinySlide({
   title: 'li',
   interval: 4000,
