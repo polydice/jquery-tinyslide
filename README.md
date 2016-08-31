@@ -105,11 +105,11 @@ It will be triggered when slide finish one rotate.
 
 ### Demo
 
-Check our [sample](https://github.com/polydice/jquery-tinyslide/tree/master/sample).
+Check our simple [sample](https://github.com/polydice/jquery-tinyslide/tree/master/sample).
 
 ### Contribute
 
-PR,issue and any advice are always welcome.
+PR, issue and advice are always welcome.
 
 ### Lisence
 
