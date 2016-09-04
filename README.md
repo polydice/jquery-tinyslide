@@ -24,24 +24,11 @@ Since this package acts as a jQuery extension, it depends on jQuery. Be sure tha
 
 if you install it with npm, you can just: 
 
-```js
-const TinySlide = require('jquery-tinyslide');
+```
+require('jquery-tinyslide');
 ```
 
-otherwise you can acquire `TinySlide` globally if you install it with bower.
-
-And than you could register it with jQuery.
-
-```js
-$.fn.extend({
-  tinySlide(options) {
-    Array.prototype.forEach.call(this, (elm) => {
-      const tinySlideIns = new TinySlide(elm, options);
-      $(elm).data('tinySlide', tinySlideIns);
-    });
-  },
-});
-```
+otherwise you could require your own asset management tool(ex. sprocket) if you install it with bower.
 
 `tinyslide` now should work as expected as a jQuery extension!
 
