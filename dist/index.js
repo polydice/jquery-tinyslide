@@ -121,6 +121,15 @@ TinySlide.defaults = {
   onRotate: function onRotate() {}
 };
 
+$.fn.extend({
+  tinySlide: function tinySlide(options) {
+    Array.prototype.forEach.call(this, function (elm) {
+      var tinySlideIns = new TinySlide(elm, options);
+      $(elm).data('tinySlide', tinySlideIns);
+    });
+  }
+});
+
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = TinySlide;
 } else if (typeof define === 'function' && _typeof(define.amd) === 'object' && define.amd) {
