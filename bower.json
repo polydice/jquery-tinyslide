@@ -1,7 +1,7 @@
 {
   "name": "jquery-tinyslide",
   "description": "slider as a jQuery extension",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "authors": [
     "ichi"
   ],

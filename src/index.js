@@ -103,6 +103,14 @@ TinySlide.defaults = {
   onRotate() {},
 };
 
+$.fn.extend({
+  tinySlide(options) {
+    Array.prototype.forEach.call(this, (elm) => {
+      const tinySlideIns = new TinySlide(elm, options);
+      $(elm).data('tinySlide', tinySlideIns);
+    });
+  },
+});
 
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = TinySlide;

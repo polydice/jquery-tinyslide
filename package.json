@@ -2,9 +2,11 @@
   "name": "jquery-tinyslide",
   "version": "1.0.0",
   "description": "A tiny slider based on jQuery",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
-    "test": "jasmine spec/index.js"
+    "test": "jasmine spec/index.js",
+    "build": "babel src --presets babel-preset-es2015 --out-dir dist",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,8 @@
   "author": "ichi",
   "license": "MIT",
   "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
     "jasmine": "^2.4.1",
     "jquery": "^3.1.0"
   }
