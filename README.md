@@ -4,7 +4,7 @@
 
 Transfer multiple elements into slide in one magic. 
 
-### Installj
+### Install
 
 ```
 npm install --save jquery-tinyslide
